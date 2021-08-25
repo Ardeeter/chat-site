@@ -1,7 +1,7 @@
 import React from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import {increment} from '../actions/templateActions';
-import {DivSC, Paper} from './Styles';
+// import {DivSC, Paper} from './Styles';
 
 const Hooks = () => {
 
@@ -13,9 +13,9 @@ const Hooks = () => {
             <h2>{count}</h2>
             <button onClick={()=> dispatch(increment(2))}>Click Me</button>
 
-            <DivSC bgc="red">I am a styled div</DivSC>
+            {/* <DivSC bgc="red">I am a styled div</DivSC>
             <DivSC bgc="">I am a styled div</DivSC>
-            <Paper>this is paper div</Paper>
+            <Paper>this is paper div</Paper> */}
        
         </div>
     )
